@@ -95,7 +95,7 @@ else{
                                             <th>#</th>
                                             <th>Student Name</th>
                                             <th>Book Name</th>
-                                            <th>ISBN </th>
+                                            <th>Reg No</th>
                                             <th>Issued Date</th>
                                             <th>Return Date</th>
                                             <th>Action</th>

@@ -134,7 +134,7 @@ foreach($results as $result)
 
 
 <div class="form-group">
-<label>ISBN :</label>
+<label>Reg No :</label>
 <?php echo htmlentities($result->ISBNNumber);?>
 </div>
 

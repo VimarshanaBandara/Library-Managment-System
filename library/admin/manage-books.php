@@ -115,7 +115,7 @@ header('location:manage-books.php');
                                             <th>Book Name</th>
                                             <th>Category</th>
                                             <th>Author</th>
-                                            <th>Book ID</th>
+                                            <th>Reg No</th>
                                            
                                             <th>Action</th>
                                         </tr>

@@ -143,7 +143,7 @@ continue;
 </div>
 
 <div class="form-group">
-<label>Book ID<span style="color:red;">*</span></label>
+<label>Reg No<span style="color:red;">*</span></label>
 <input class="form-control" type="text" name="isbn" value="<?php echo htmlentities($result->ISBNNumber);?>"  required="required" />
 
 </div>

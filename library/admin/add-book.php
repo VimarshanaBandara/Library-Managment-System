@@ -125,7 +125,7 @@ foreach($results as $result)
 </div>
 
 <div class="form-group">
-<label>Book ID<span style="color:red;">*</span></label>
+<label>Reg No<span style="color:red;">*</span></label>
 <input class="form-control" type="text" name="isbn"  required="required" autocomplete="off"  />
 
 </div>
