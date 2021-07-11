@@ -8,8 +8,8 @@
                 </button>
                 <a class="navbar-brand" >
 
-                    <h3>Online Library Managment System</h3>
-                    <!--img src="assets/img/logo.png" !-->
+                    <h3>School Library Managment System</h3>
+                    
                 </a>
 
             </div>

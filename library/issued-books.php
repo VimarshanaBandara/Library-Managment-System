@@ -70,7 +70,7 @@ header('location:manage-books.php');
                                             <th>ISBN </th>
                                             <th>Issued Date</th>
                                             <th>Return Date</th>
-                                            <th>Fine in(USD)</th>
+                                            
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -100,7 +100,7 @@ foreach($results as $result)
                                             echo htmlentities($result->ReturnDate);
                                         }
                                             ?></td>
-                                              <td class="center"><?php echo htmlentities($result->fine);?></td>
+                                              
                                          
                                         </tr>
  <?php $cnt=$cnt+1;}} ?>                                      

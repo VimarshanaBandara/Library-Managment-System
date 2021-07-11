@@ -102,13 +102,16 @@ error:function (){}
 
         </div>
              <div class="row">
-           
+             <img src="assets/img/UserSignup.png" />
 <div class="col-md-9 col-md-offset-1">
                <div class="panel panel-danger">
+                   
                         <div class="panel-heading">
-                           SINGUP FORM
+                            
+                           SINGUP 
                         </div>
                         <div class="panel-body">
+                            
                             <form name="signup" method="post" onSubmit="return valid();">
 <div class="form-group">
 <label>Enter Full Name</label>

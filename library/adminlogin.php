@@ -53,22 +53,23 @@ echo "<script>alert('Invalid Details');</script>";
 <div class="container">
 <div class="row pad-botm">
 <div class="col-md-12">
-<h4 class="header-line">ADMIN LOGIN FORM</h4>
+<h4 class="header-line">ADMIN LOGGING</h4>
 </div>
 </div>
              
 <!--LOGIN PANEL START-->           
 <div class="row">
+<img src="assets/img/AdminLogging.png" />
 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" >
 <div class="panel panel-info">
 <div class="panel-heading">
- LOGIN FORM
+ LOGGING
 </div>
 <div class="panel-body">
 <form role="form" method="post">
 
 <div class="form-group">
-<label>Enter Username</label>
+<label>Username</label>
 <input class="form-control" type="text" name="username" autocomplete="off" required />
 </div>
 <div class="form-group">
