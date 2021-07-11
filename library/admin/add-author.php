@@ -62,6 +62,7 @@ header('location:manage-authors.php');
 
 </div>
 <div class="row">
+<img src="assets/img/BookAuther.png" />
 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3"">
 <div class="panel panel-info">
 <div class="panel-heading">

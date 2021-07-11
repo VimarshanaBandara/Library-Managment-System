@@ -115,8 +115,8 @@ header('location:manage-books.php');
                                             <th>Book Name</th>
                                             <th>Category</th>
                                             <th>Author</th>
-                                            <th>ISBN</th>
-                                            <th>Price</th>
+                                            <th>Book ID</th>
+                                           
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -136,7 +136,7 @@ foreach($results as $result)
                                             <td class="center"><?php echo htmlentities($result->CategoryName);?></td>
                                             <td class="center"><?php echo htmlentities($result->AuthorName);?></td>
                                             <td class="center"><?php echo htmlentities($result->ISBNNumber);?></td>
-                                            <td class="center"><?php echo htmlentities($result->BookPrice);?></td>
+                                            
                                             <td class="center">
 
                                             <a href="edit-book.php?bookid=<?php echo htmlentities($result->bookid);?>"><button class="btn btn-primary"><i class="fa fa-edit "></i> Edit</button> 

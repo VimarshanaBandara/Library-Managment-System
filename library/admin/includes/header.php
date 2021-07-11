@@ -8,7 +8,7 @@
                 </button>
                 <a class="navbar-brand">
 
-                    <h3>School Library Managment</h3>
+                    <h3>School Library Managment System</h3>
                 </a>
 
             </div>
