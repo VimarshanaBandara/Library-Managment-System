@@ -46,7 +46,7 @@ else{?>
 
  <div class="col-md-3 col-sm-3 col-xs-6">
                       <div class="alert alert-success back-widget-set text-center">
-                            <i class="fa fa-book fa-5x"></i>
+                      <img src="assets/img/book_03.png" />
 <?php 
 $sql ="SELECT id from tblbooks ";
 $query = $dbh -> prepare($sql);
@@ -64,7 +64,7 @@ $listdbooks=$query->rowCount();
             
                  <div class="col-md-3 col-sm-3 col-xs-6">
                       <div class="alert alert-info back-widget-set text-center">
-                            <i class="fa fa-bars fa-5x"></i>
+                      <img src="assets/img/book_04.png" />
 <?php 
 $sql1 ="SELECT id from tblissuedbookdetails ";
 $query1 = $dbh -> prepare($sql1);
@@ -80,7 +80,7 @@ $issuedbooks=$query1->rowCount();
              
                <div class="col-md-3 col-sm-3 col-xs-6">
                       <div class="alert alert-warning back-widget-set text-center">
-                            <i class="fa fa-recycle fa-5x"></i>
+                      <img src="assets/img/book_05.png" />
 <?php 
 $status=1;
 $sql2 ="SELECT id from tblissuedbookdetails where RetrunStatus=:status";
@@ -97,7 +97,7 @@ $returnedbooks=$query2->rowCount();
                     </div>
                <div class="col-md-3 col-sm-3 col-xs-6">
                       <div class="alert alert-danger back-widget-set text-center">
-                            <i class="fa fa-users fa-5x"></i>
+                      <img src="assets/img/book_06.png" />
                             <?php 
 $sql3 ="SELECT id from tblstudents ";
 $query3 = $dbh -> prepare($sql1);
@@ -118,7 +118,7 @@ $regstds=$query3->rowCount();
 
  <div class="col-md-3 col-sm-3 col-xs-6">
                       <div class="alert alert-success back-widget-set text-center">
-                            <i class="fa fa-user fa-5x"></i>
+                      <img src="assets/img/book_07.png" />
 <?php 
 $sq4 ="SELECT id from tblauthors ";
 $query4 = $dbh -> prepare($sql);
@@ -136,7 +136,7 @@ $listdathrs=$query4->rowCount();
             
                  <div class="col-md-3 col-sm-3 rscol-xs-6">
                       <div class="alert alert-info back-widget-set text-center">
-                            <i class="fa fa-file-archive-o fa-5x"></i>
+                      <img src="assets/img/book_08.png" />
 <?php 
 $sql5 ="SELECT id from tblcategory ";
 $query5 = $dbh -> prepare($sql1);
@@ -155,69 +155,7 @@ $listdcats=$query5->rowCount();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-             <div class="row">
-
-              <div class="col-md-10 col-sm-8 col-xs-12 col-md-offset-1">
-                    <div id="carousel-example" class="carousel slide slide-bdr" data-ride="carousel" >
-                   
-                    <div class="carousel-inner">
-                        <div class="item active">
-
-                            <img src="assets/img/1.jpg" alt="" />
-                           
-                        </div>
-                        <div class="item">
-                            <img src="assets/img/2.jpg" alt="" />
-                          
-                        </div>
-                        <div class="item">
-                            <img src="assets/img/3.jpg" alt="" />
-                           
-                        </div>
-                    </div>
-                    <!--INDICATORS-->
-                     <ol class="carousel-indicators">
-                        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example" data-slide-to="1"></li>
-                        <li data-target="#carousel-example" data-slide-to="2"></li>
-                    </ol>
-                    <!--PREVIUS-NEXT BUTTONS-->
-                     <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-                </div>
-              </div>
-                 
-               
-             
-               
-            
-             </div>
-            
-    </div>
-    </div>
-     <!-- CONTENT-WRAPPER SECTION END-->
+ <!-- CONTENT-WRAPPER SECTION END-->
 <?php include('includes/footer.php');?>
       <!-- FOOTER SECTION END-->
     <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->

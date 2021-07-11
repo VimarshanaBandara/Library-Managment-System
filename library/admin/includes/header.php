@@ -8,13 +8,13 @@
                 </button>
                 <a class="navbar-brand">
 
-                    <img src="assets/img/logo.png" />
+                    <h3>Online Library Managment</h3>
                 </a>
 
             </div>
 
             <div class="right-div">
-                <a href="logout.php" class="btn btn-danger pull-right">LOG ME OUT</a>
+                <a href="logout.php" class="btn btn-danger pull-right">LOG OUT</a>
             </div>
         </div>
     </div>

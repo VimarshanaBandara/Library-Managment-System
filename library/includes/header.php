@@ -8,7 +8,8 @@
                 </button>
                 <a class="navbar-brand" >
 
-                    <img src="assets/img/logo.png" />
+                    <h3>Online Library Managment System</h3>
+                    <!--img src="assets/img/logo.png" !-->
                 </a>
 
             </div>
@@ -16,7 +17,7 @@
 {
 ?> 
             <div class="right-div">
-                <a href="logout.php" class="btn btn-danger pull-right">LOG ME OUT</a>
+                <a href="logout.php" class="btn btn-danger pull-right">LOG OUT</a>
             </div>
             <?php }?>
         </div>

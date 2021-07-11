@@ -33,7 +33,7 @@ else{?>
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
-                <h4 class="header-line">ADMIN DASHBOARD</h4>
+                <h4 class="header-line">USER DASHBOARD</h4>
                 
                             </div>
 
@@ -46,7 +46,8 @@ else{?>
             
                  <div class="col-md-3 col-sm-3 col-xs-6">
                       <div class="alert alert-info back-widget-set text-center">
-                            <i class="fa fa-bars fa-5x"></i>
+                      <img src="assets/img/book_01.png" />
+                           
 <?php 
 $sid=$_SESSION['stdid'];
 $sql1 ="SELECT id from tblissuedbookdetails where StudentID=:sid";
@@ -57,14 +58,15 @@ $results1=$query1->fetchAll(PDO::FETCH_OBJ);
 $issuedbooks=$query1->rowCount();
 ?>
 
-                            <h3><?php echo htmlentities($issuedbooks);?> </h3>
+                            <h1><?php echo htmlentities($issuedbooks);?> </h1>
                             Book Issued
                         </div>
                     </div>
              
                <div class="col-md-3 col-sm-3 col-xs-6">
                       <div class="alert alert-warning back-widget-set text-center">
-                            <i class="fa fa-recycle fa-5x"></i>
+                            <!--i class="fa fa-recycle fa-5x" !--></i>
+                              <img src="assets/img/book_02.png" />
 <?php 
 $rsts=0;
 $sql2 ="SELECT id from tblissuedbookdetails where StudentID=:sid and RetrunStatus=:rsts";
